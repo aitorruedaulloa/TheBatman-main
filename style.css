@@ -1,0 +1,31 @@
+#cabecera_imagen {
+    background-image: url(./img/header_background.jpeg);
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    }
+
+    h1 {
+        margin: 100px;
+    }
+
+    #seccion_1{
+        width: 650px;
+        background-color: white;
+        padding: 0px;
+
+    }
+
+    body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+
+    }
