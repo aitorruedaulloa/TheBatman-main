@@ -1,31 +1,50 @@
+/* aquí le he puesto la url de la imagen de trasfondo (background-image)
+junto con el color de la letra y su ancho y largo. Además de alinear el texto */
+
 #cabecera_imagen {
     background-image: url(./img/header_background.jpeg);
-    margin: auto;
+    
+
     color: aliceblue;
-    font-size: 30px;
-    margin: 10px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
+    justify-content: center;
+    width: 1500px;
+    height: 880px;
     }
-
+ /* aquí puse width para poner separación entre el máximo de letras por línea, ya que sno ocupa mucho espacio */
     h1 {
-        margin: 100px;
+    width: 40%;
     }
-
-    #seccion_1{
-        width: 650px;
-        background-color: white;
-        padding: 0px;
-
+     /* En el cuerpo, el ID, puse esta clase para ponerlo lo más centrado posible en relación a las imágenes y width cómo
+     en la anterior para la separación de texto de línea a línea */
+    #cuerpo {
+       
+        margin:auto;
+        width: 450px;   
     }
-
-    body {
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
+     /* Al poner el link para que quede resaltado cómo en la maqueta lo dejé con el color rojo */
+    #link_rataalada{
+    color: red;
 
     }
+     /* aquí puse width para que todas las imágenes con está clase tuvieran el mismo ancho en píxeles */
+    .imagen {
+        width: 700px;
+    }
+     /* aquí puse el borde de color negro con una anchura de tres píxeles*/
+    th,td {
+        border: 3px solid black;
+        
+    }
+     /* Aquí ajuste el ancho y largo de todas las imagenes para la tabla y así quedaran más o menas quadradas dentro de casilla */
+   .img_actor{
+    width: 180px;
+    height:262px;
+   }
+    /* Puse el texto alineado para que no se quedará cómo por defecto alineado a la izquierda */
+   #head {
+    text-align: center;
+   }
+   .d-block{
+    width: 400px;
+    height: 300px;
+   }
