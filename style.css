@@ -3,23 +3,17 @@ junto con el color de la letra y su ancho y largo. Además de alinear el texto *
 
 #cabecera_imagen {
     background-image: url(./img/header_background.jpeg);
-    
-
     color: aliceblue;
-    justify-content: center;
-    width: 1500px;
+    justify-content:center;
+    width: 100%;
     height: 880px;
     }
- /* aquí puse width para poner separación entre el máximo de letras por línea, ya que sno ocupa mucho espacio */
-    h1 {
-    width: 40%;
-    }
+ 
      /* En el cuerpo, el ID, puse esta clase para ponerlo lo más centrado posible en relación a las imágenes y width cómo
      en la anterior para la separación de texto de línea a línea */
-    #cuerpo {
-       
+    #cuerpo {   
         margin:auto;
-        width: 450px;   
+        width: 700px;   
     }
      /* Al poner el link para que quede resaltado cómo en la maqueta lo dejé con el color rojo */
     #link_rataalada{
@@ -35,6 +29,10 @@ junto con el color de la letra y su ancho y largo. Además de alinear el texto *
         border: 3px solid black;
         
     }
+
+    table{
+        margin: auto;
+    }
      /* Aquí ajuste el ancho y largo de todas las imagenes para la tabla y así quedaran más o menas quadradas dentro de casilla */
    .img_actor{
     width: 180px;
@@ -47,4 +45,19 @@ junto con el color de la letra y su ancho y largo. Además de alinear el texto *
    .d-block{
     width: 400px;
     height: 300px;
+   }
+   
+   .carousel {
+    width: 550px;
+    margin: auto;
+   }
+   /* Con esto aplicaremos una fuente para la pagian web */
+   @font-face {
+    font-family: "Indie_Flower"S;
+    src: url(./Indie_Flower/IndieFlower-Regular.ttf);
+   }
+
+   /* Aquí le agregaremos la fuente de letra al H2 que le di el ID de titulo_tipografia */
+   #titulo_tipografia {
+    font-family: "Indie_Flower";
    }
